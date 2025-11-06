@@ -24,6 +24,7 @@
 #include <zephyr/bluetooth/services/dis.h>
 
 LOG_MODULE_REGISTER(gamepad, LOG_LEVEL_DBG);
+//abcd
 
 #if DT_NODE_HAS_STATUS(DT_ALIAS(expanderreset), okay)
 static const struct gpio_dt_spec expander_reset = GPIO_DT_SPEC_GET(DT_ALIAS(expanderreset), gpios);
